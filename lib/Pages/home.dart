@@ -69,7 +69,7 @@ class Home extends StatefulWidget {
                 elevation: 2.0,
                 child: ListTile(
                   leading: CircleAvatar(
-                    backgroundColor: Colors.red,
+                    backgroundColor: Colors.blueGrey,
                     child: Icon(Icons.ad_units),
                   ),
                   title: Text(this.itemList[index].name, style: textStyle,),

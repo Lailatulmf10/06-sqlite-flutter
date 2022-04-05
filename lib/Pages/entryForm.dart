@@ -30,7 +30,7 @@ class EntryFormState extends State<EntryForm> {
         appBar: AppBar(
           title: item == null ? const Text('Tambah') : const Text('Ubah'),
           leading: const Icon(Icons.keyboard_arrow_left),
-          backgroundColor: Colors.pink,
+          backgroundColor: Colors.blue,
         ),
         body: Padding(
           padding: const EdgeInsets.only(top: 15.0, left: 10.0, right: 10.0),
