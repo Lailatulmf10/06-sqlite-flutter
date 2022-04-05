@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sqlite_flutter/pages/home.dart';
+import 'pages/home.dart';
 
+//package letak folder Anda
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -16,4 +17,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
- 

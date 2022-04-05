@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sqlite_flutter/models/item.dart';
+import 'package:sql/Models/item.dart';
 
 class EntryForm extends StatefulWidget {
   final Item item;
@@ -24,8 +24,6 @@ class EntryFormState extends State<EntryForm> {
     if (item != null) {
       nameController.text = item.name;
       priceController.text = item.price.toString();
-      codeController.text = item.code;
-      stockController.text = item.stock.toString();
     }
     //rubah
     return Scaffold(
@@ -72,39 +70,7 @@ class EntryFormState extends State<EntryForm> {
                   },
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.only(top: 20.0, bottom: 20.0),
-                child: TextField(
-                  controller: stockController,
-                  keyboardType: TextInputType.number,
-                  decoration: InputDecoration(
-                    labelText: 'Stock',
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(5.0),
-                    ),
-                  ),
-                  onChanged: (value) {
-                    //
-                  },
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(top: 20.0, bottom: 20.0),
-                child: TextField(
-                  controller: codeController,
-                  keyboardType: TextInputType.text,
-                  decoration: InputDecoration(
-                    labelText: 'Code',
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(5.0),
-                    ),
-                  ),
-                  onChanged: (value) {
-                    //
-                  },
-                ),
-              ),
-              // tombol button
+             
               Padding(
                 padding: const EdgeInsets.only(top: 20.0, bottom: 20.0),
                 child: Row(
@@ -123,15 +89,11 @@ class EntryFormState extends State<EntryForm> {
                             // tambah data
                             item = Item(
                                 nameController.text,
-                                int.parse(priceController.text),
-                                int.parse(stockController.text),
-                                (codeController.text));
+                                int.parse(priceController.text));
                           } else {
                             // ubah data
                             item.name = nameController.text;
                             item.price = int.parse(priceController.text);
-                            item.stock = int.parse(stockController.text);
-                            item.code = codeController.text;
                           }
                           // kembali ke layar sebelumnya dengan membawa objek item
                           Navigator.pop(context, item);

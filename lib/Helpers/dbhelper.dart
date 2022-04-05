@@ -2,7 +2,7 @@ import 'package:sqflite/sqflite.dart';
 import 'dart:async';
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
-import '../Models/item.dart';
+import '/Models/item.dart';
 
 class DbHelper {
   static DbHelper _dbHelper;
@@ -11,7 +11,7 @@ class DbHelper {
   Future<Database> initDb() async {
     //untuk menentukan nama database dan lokasi yg dibuat
     Directory directory = await getApplicationDocumentsDirectory();
-    String path = directory.path + 'lila.db';
+    String path = directory.path + 'priesca.db';
 
     //create, read databases
     var itemDatabase = openDatabase(path, version: 4, onCreate: _createDb);
