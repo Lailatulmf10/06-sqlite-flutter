@@ -15,7 +15,7 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-![tampilan awal](https://user-images.githubusercontent.com/89982049/161663344-c8139177-a64c-4c4d-a8c6-d7ac5f3f3ef1.jpeg)
-![Tambah barang](https://user-images.githubusercontent.com/89982049/161663464-998824fd-6341-4348-b870-9bbff888ff66.jpeg)
-![barang telah ditambahkan](https://user-images.githubusercontent.com/89982049/161663483-6247e785-b60b-4918-832a-cb40210c9252.jpeg)
-![hapus barang](https://user-images.githubusercontent.com/89982049/161663496-72984238-88c3-4cbb-8de3-f9965a0c0bc2.jpeg)
+![Tampilan Awal](https://user-images.githubusercontent.com/89982049/161670994-85c20e91-06c3-41c3-b460-4ef77d59bd68.jpeg)
+![Tambah Barang](https://user-images.githubusercontent.com/89982049/161671004-2a6d5f9a-6db5-4ae8-b4fc-242b14c52a13.jpeg)
+![Barang yang ditambah](https://user-images.githubusercontent.com/89982049/161671019-6be9d22f-59ca-4142-b8d4-4ea23ed2c0e0.jpeg)
+![Hapus barang](https://user-images.githubusercontent.com/89982049/161671031-6d6fcb35-7381-4d08-b1a1-940fd48c949c.jpeg)
