@@ -70,7 +70,7 @@ class HomeState extends State<Home> {
           elevation: 2.0,
           child: ListTile(
             leading: const CircleAvatar(
-              backgroundColor: Colors.red,
+              backgroundColor: Colors.lightBlue,
               child: Icon(Icons.ad_units),
             ),
             title: Text(
